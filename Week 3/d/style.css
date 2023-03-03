@@ -1,0 +1,35 @@
+.header {
+  color: #ffffff;
+  background-color: blue;
+  padding: 0 0 0 2em; 
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+.nav {
+  background-color: yellow;
+  display: grid;
+  padding: 1em 0 2em 0;
+  text-align: center;
+  grid-auto-flow: column;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 80fr 20fr;
+}
+
+.main {
+  color: #ffffff;
+  background-color: rgb(2, 2, 95);
+}
+
+.aside {
+  background-color: rgb(127, 249, 97);
+}
+
+.footer {
+  color: #ffffff;
+  background-color: rgb(16, 83, 16);
+}

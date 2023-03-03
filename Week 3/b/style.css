@@ -1,0 +1,28 @@
+.header {
+  color: #ffffff;
+  background-color: blue;
+  padding: 2em 0 2em 2em;
+}
+
+.nav {
+  background-color: yellow;
+  color: black;
+  display: grid;
+  padding: 1em 0 1em 0;
+}
+
+.main {
+  color: #ffffff;
+  background-color: rgb(2, 2, 95); 
+  display: grid;
+  grid-template-columns: 25fr 75fr;
+}
+
+.aside {
+  background-color: rgb(127, 249, 97);
+}
+
+.footer {
+  color: #ffffff;
+  background-color: rgb(16, 83, 16);
+}
